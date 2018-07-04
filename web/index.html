@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title>Merge</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/smallelephant2.css"/>
+</head>
+<body>
+<div id="headmaster"></div>
+
+<div id="dragcontainer">
+    <div class="drag-col-3">
+        <!--<button id="reset">Reset</button>-->
+        <div>
+            <select id="country" name="country">
+                <option value="HK">HK</option>
+                <option value="JP">JP</option>
+                <option value="KR">KR</option>
+                <option value="MY">MY</option>
+                <option value="SG">SG</option>
+                <option value="TH">TH</option>
+                <option value="TW">TW</option>
+                <option value="VN">VN</option>
+            </select>
+        </div>
+
+        <div>
+            <select id="pixelsel" name="pixelselect">
+                <option value="pix1060">1060x596</option>
+                <option value="pix725">725x515</option>
+                <option value="pix446">446x370</option>
+                <option value="pix430">430x309</option>
+                <option value="pix400">400x300</option>
+                <option value="pix227">227x170</option>
+                <option value="pix192">192x144</option>
+                <option value="pix115">115x65</option>
+            </select>
+        </div>
+        <div>
+            <select id="stylesel" name="styleselect">
+                <option value="sizetag">尺寸重量</option>
+                <option value="yonezawa">米泽生产</option>
+                <option value="zoom">尺寸缩放</option>
+            </select>
+        </div>
+    </div>
+    <div class="drag-col-6">
+        <div id="draginto"></div>
+    </div>
+    <div id="download" class="drag-col-3"></div>
+</div>
+<div>
+    <div style="margin-top:10px;">
+        &emsp;&emsp;&emsp;&emsp;&emsp;<input id="textinch" type="text" placeholder="15.0&quot;"/>
+    </div>
+    <div style="margin-top:20px;">
+        &emsp;&emsp;&emsp;&emsp;&emsp;<input id="textweight" type="text" placeholder="2.50kg"/>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/smallelephant4.js"></script>
+<script>
+    document.getElementById("reset").onclick = function () {
+        document.getElementById("download").innerHTML = "";
+    }
+</script>
+</body>
+</html>

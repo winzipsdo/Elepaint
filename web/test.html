@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/Elepaint.css">
+    <link rel="stylesheet" type="text/css" href="css/fancy_select.css">
+    <title>test</title>
+</head>
+<body>
+<div style="color:red;">
+    123
+    <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-xialaxuanshijian"></use>
+    </svg>
+</div>
+
+
+<label for="fancy_select"></label>
+<select class="fancy_select" id="fancy_select">
+    <option>hello</option>
+    <option>we</option>
+    <option>are</option>
+    <option>Lenovo</option>
+</select>
+<button id="btn_test">btn_test</button>
+
+<script>
+    let btn_test = document.querySelector('#btn_test');
+    let fancy_select = document.querySelector('#fancy_select');
+    btn_test.addEventListener('click',()=>{
+        alert(fancy_select.display);
+    });
+</script>
+</body>
+</html>

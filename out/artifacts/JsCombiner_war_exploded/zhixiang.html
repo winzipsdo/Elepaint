@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elepaint | Lenovo WPC</title>
+
+    <link rel="stylesheet" type="text/css" href="css/zhixiang.css">
+    <script>
+        var temp_screen_width = screen.width;
+        if (temp_screen_width<=1440){window.location.href = 'index_new.html';}
+    </script>
+</head>
+
+<body>
+
+
+
+<div class="header">
+    <span id="logo_text">智象</span>
+</div>
+<div class="container">
+    <div class="bar_control">
+        <div class="row_regular">
+            <div class="text_message">
+                <span>1. Select site</span>
+            </div>
+            <div class="control_right">
+                <div class="bar_select">
+                    <select class="fancy_select" id="country" name="country">
+                        <option value="CAP">cap</option>
+                        <option value="HK">Hongkong</option>
+                        <option value="JP">Japan</option>
+                        <option value="KR">Korea</option>
+                        <option value="MY">Malaysia</option>
+                        <option value="SG">Singapore</option>
+                        <option value="TH">Thailand</option>
+                        <option value="TW">Taiwan</option>
+                        <option value="VN">Vietnam</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="row_regular">
+            <div class="text_message">
+                <span>2. Select icon</span>
+            </div>
+            <div class="control_right">
+                <div class="bar_img" id="tag-size">
+                    <img src="img/tag-size.png">
+                </div>
+                <div class="bar_img" id="tag-yonezawa">
+                    <img src="img/tag-yonezawa.png">
+                </div>
+                <div class="bar_img" id="tag-zoom">
+                    <img src="img/zoom.png">
+                </div>
+                <div class="bar_img" id="big-tag-size">
+                    <img src="img/big-size-tag.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="row_regular">
+            <div class="text_message">
+                <span>3. Resize image</span>
+            </div>
+
+            <div class="control_right">
+                <div class="bar_select">
+                    <select class="fancy_select" id="pixelsel" name="pixelselect">
+                        <option value="pix192">192x144</option>
+                        <option value="pix1060">1060x596</option>
+                        <option value="pix725">725x515</option>
+                        <option value="pix446">446x370</option>
+                        <option value="pix430">430x309</option>
+                        <option value="pix400">400x300</option>
+                        <option value="pix227">227x170</option>
+                        <option value="pix192">192x144</option>
+                        <option value="pix115">115x65</option>
+                    </select>
+                </div>
+                <div class="bar_select">
+                    <input id="textinch" type="text" placeholder="15.0&quot;" />
+                </div>
+                <div class="bar_select">
+                    <input id="textweight" type="text" placeholder="2.50kg" />
+                </div>
+            </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <div id="draginto">
+            <div id="elephant">
+                <img src="img/elephant3.png">
+            </div>
+            <span id="message_elephant">Drag your image here</span>
+        </div>
+    </div>
+    <div id="download">
+        <p id="btn_clear" style="font-weight:bold;text-align:center;">File List</p>
+    </div>
+</div>
+
+<script src="js/sleep_v0.1.js"></script>
+<script src="js/Elepaint.js"></script>
+</body>
+
+</html>

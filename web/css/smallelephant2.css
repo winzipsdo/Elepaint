@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'madavemadison_avenue';
+    src: url('font/madave-webfont.eot');
+    src: url('font/madave-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/madave-webfont.woff2') format('woff2'),
+    url('font/madave-webfont.woff') format('woff'),
+    url('font/madave-webfont.ttf') format('truetype'),
+    url('font/madave-webfont.svg#madavemadison_avenue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html, body {
+    font-family: 'madavemadison_avenue';
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #bfd6d3;
+}
+
+#headmaster {
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#drag-container {
+    width: 100%;
+}
+
+#dragcontainer {
+    background-image: url("../img/herobanner.png");
+    width: 100%;
+    height: 500px;
+    padding: 20px 0 20px 0;
+}
+
+#draginto {
+    margin: auto;
+    border: 8px dashed #00d5c8;
+    width: 600px;
+    height: 500px;
+    background-image: url("../img/dragintoimage.png");
+    text-align: center;
+    line-height: 3em;
+}
+
+.drag-col-3, .drag-col-6 {
+    float: left;
+    box-sizing: content-box;
+    min-height: 1px;
+}
+
+.drag-col-3 {
+    width: 25%;
+}
+
+.drag-col-6 {
+    width: 50%;
+}
+
+#pixelsel {
+    padding: 0 14px 0 14px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: white;
+    font-family: "madavemadison_avenue";
+    border: 5px dashed #00d5c8;
+    margin-left: 50px;
+    display: block;
+    width: 180px;
+    height: 100px;
+    font-size: 3em;
+    float: left;
+    background-color: #bfd6d3;
+    margin-top: 50px;
+}
+
+#stylesel {
+    padding: 0 14px 0 14px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: white;
+    font-family: "madavemadison_avenue";
+    border: 5px dashed #00d5c8;
+    margin-left: 50px;
+    display: block;
+    width: 180px;
+    height: 100px;
+    font-size: 3em;
+    float: left;
+    background-color: #bfd6d3;
+    margin-top: 50px;
+}
+
+#textinch {
+    border: 5px dashed #00d5c8;
+    box-shadow: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    height: 30px;
+    width: 80px;
+}
+
+#textweight {
+    border: 5px dashed #00d5c8;
+    box-shadow: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 30px;
+    width: 80px;
+}
+
+#country {
+    padding: 0 14px 0 14px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: white;
+    font-family: "madavemadison_avenue";
+    border: 5px dashed #00d5c8;
+    margin-left: 50px;
+    display: block;
+    width: 180px;
+    height: 100px;
+    font-size: 3em;
+    float: left;
+    background-color: #bfd6d3;
+    margin-top: 20px;
+}
